@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* Navbar CSS */
+nav{
+    border-bottom: 1px solid grey;
+    height: 100px;
+}
+#photo {
+    text-align: left;
+}
+
+img {
+    vertical-align:middle;
+    float: left;
+}
+#logo{
+    height: 55px;
+    width: 55px;
+    border-right: 1px solid grey;
+    padding-right: 2%;
+    margin: 2% 2%;
+}
+#span1 {
+    vertical-align:middle;
+    float: left;
+    margin-top: 40px;
+}
+.username{
+    border-left: 1px solid grey;
+    float: right;
+    margin: 2% 2%;
+    padding: 2px 20px;
+}
+#profile{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+#span2{
+    vertical-align:middle;
+    float: left;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+
+
+
+/* Sidebar CSS */
+.container{
+    display:flex;
+    width: 95%;
+    margin-top: 13px;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+    color: black;
+    height: 500px;
+    width: 200px;
+    border-right: 1px solid gray;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: black;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:rgb(17, 236, 17);
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: rgb(17, 236, 17);
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+
+/* for Modal */
+#icon1{
+    height: 55px;
+    height: 30%;
+    text-align: center;
+}
+.column {
+    float: left;
+    padding: 10px;
+    height: 400px;
+  }
+  .row{
+    width: 800px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#column1{
+    width: 300px;
+    background-color: rgb(255, 166, 150);
+    color: white;
+    padding: 12px 12px;
+}
+#column2{
+    width: 500px;
+}
